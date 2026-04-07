@@ -1,0 +1,18 @@
+.img-class {
+    position: relative;
+    width: 800px;
+}
+.img1 {
+    display: block;
+    width: 45%;
+
+
+}
+.img2 {
+    position: absolute;
+    top: 1px;
+    left: 35px;
+    width: 10%;
+    opacity: 1;
+
+}
