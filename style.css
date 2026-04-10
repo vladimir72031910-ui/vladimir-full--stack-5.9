@@ -113,5 +113,45 @@ color: #96A5B1;
     font-size: 18px;
     text-decoration: none;
 }
+.lineor {
+    display: flex;
+    align-items: center;
+    margin-left: 67%;
+    max-width: 18%;
+    color: #3a3a3a;
 
+}
+.lol {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #cfcfcf;
+}
+.or {
+    margin: 0 15px;
+}
+.eml {
+    position: relative;
+    width: 300px;
+}
+.Email {
+    width: 280px;
+    height: 36px;
+    margin-left: 323%;
+    padding-top: 20px;
+   border: 2px solid #EEEEEE;
+   border-left: 2px solid #3698FB;
+    
+}
+.igor {
+    position: absolute;
+     margin-left: 327%;
+     margin-top: 1%;
+     color: #AFAFAF;
 
+     
+}
+::placeholder {
+    font-size: 20px;
+    padding-left: 7px;
+
+}
