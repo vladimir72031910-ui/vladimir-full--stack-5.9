@@ -89,3 +89,29 @@ color: #96A5B1;
     font-size: 18px;
     text-decoration: none;
 }
+.khox {
+     display: flex;
+        margin-left: 78%;
+    margin-top: -3%;
+    background-color: #0076B6;
+    width: 290px;
+    height: 50px;
+}
+.link {
+     width: 25px;
+    background-color:#0076B6 ;
+    
+    margin-left: 7%;
+
+}
+.vyachekhox {
+    color: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    margin-left: 29px;
+    margin-top: 14px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
