@@ -26,6 +26,7 @@ padding-top: 150px;
 padding-left: 965px;
 }
 
+
 .texth1 {
 color: #7B8A92;
 
@@ -173,4 +174,8 @@ color: #96A5B1;
     height: 50px;
 
    border: 2px solid #EEEEEE;
+}
+.face2 {
+    padding-top: 25px;
+padding-left: 965px;
 }
