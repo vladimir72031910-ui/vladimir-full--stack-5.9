@@ -155,3 +155,22 @@ color: #96A5B1;
     padding-left: 7px;
 
 }
+.toy {
+     position: relative;
+    width: 300px;
+    margin-left: 78%;
+    margin-top: -3.5%;
+    
+}
+.pho {
+     position: absolute;
+     margin-top: 1%;
+     margin-left: 4%;
+     color: #AFAFAF;
+}
+.phone {
+    width: 280px;
+    height: 50px;
+
+   border: 2px solid #EEEEEE;
+}
