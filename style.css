@@ -24,6 +24,7 @@ body {
 .face {
 padding-top: 150px;
 padding-left: 965px;
+
 }
 
 
@@ -68,7 +69,7 @@ color: #96A5B1;
 .regis {
     display: flex;
         margin-left: 57%;
-    margin-top: -30%;
+    margin-top: -34%;
     background-color: #255A9B;
     width: 290px;
     height: 50px;
@@ -120,6 +121,7 @@ color: #96A5B1;
     margin-left: 67%;
     max-width: 18%;
     color: #3a3a3a;
+    margin-top: -1.5%;
 
 }
 .lol {
@@ -176,12 +178,12 @@ color: #96A5B1;
    border: 2px solid #EEEEEE;
 }
 .face2 {
-    padding-top: 1%px;
+    padding-top: 3%;
 padding-left: 965px;
 }
 .radio {
     margin-left: 58%;
-    margin-top: 2%;
+    margin-top: 3.5%;
    
 }
 #individual {
@@ -225,8 +227,9 @@ padding-left: 965px;
     margin-left: 57%;
     margin-top: 1%;
     width: 14%;
-    height: 3%;
-    padding-bottom: 25px;
+    height: 6%;
+    padding-bottom: 45px;
+    padding-top:10px ;
     color: #2A4A5C;
      border: 2px solid #EEEEEE;
 }
@@ -237,12 +240,23 @@ padding-left: 965px;
 }
 .you {
     margin-left: 56.5%;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .kuplonov {
     color:#3698FB ;
 }
+.iintoo {
+     color: #2A4A5C;
+}
+.gold {
+    margin-left: 56.4%;
+    width: 180px;
+    height: 50px;
+    background-color: #3698FB;
+    color: #FFFFFF;
+    border: none;
 
+}
 
     
 
