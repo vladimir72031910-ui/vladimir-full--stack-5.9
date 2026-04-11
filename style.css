@@ -176,6 +176,74 @@ color: #96A5B1;
    border: 2px solid #EEEEEE;
 }
 .face2 {
-    padding-top: 25px;
+    padding-top: 1%px;
 padding-left: 965px;
 }
+.radio {
+    margin-left: 58%;
+    margin-top: 2%;
+   
+}
+#individual {
+    -webkit-appearance: none;
+        appearance: none;
+        width: 1rem;
+        height: 1rem;
+        border: 4px solid #3698FB;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        cursor: pointer;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        margin: 0;
+        margin-left: -11.7%;
+    }
+.mama {
+    margin-top: 10px;
+}
+.Busines {
+    margin-left: 28%;
+}
+#Business {
+    margin-left: -11.7%;
+}
+.ira {
+     margin-left: 28%;
+}
+#IRA {
+    margin-left: -6%;
+}
+.tras {
+    margin-left: 22%;
+}
+#Trust {
+    margin-left: -8%;
+}
+#tx {
+    margin-left: 57%;
+    margin-top: 1%;
+    width: 14%;
+    height: 3%;
+    padding-bottom: 25px;
+    color: #2A4A5C;
+     border: 2px solid #EEEEEE;
+}
+::placeholder {
+    font-size: 13px;
+    white-space: pre-line;
+    vertical-align: middle;
+}
+.you {
+    margin-left: 56.5%;
+    margin-top: 40px;
+}
+.kuplonov {
+    color:#3698FB ;
+}
+
+
+    
+
+
