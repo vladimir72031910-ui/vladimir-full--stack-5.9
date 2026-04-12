@@ -1,233 +1,271 @@
-body {
-    font-family:"my font" ;
-
+.main {
     background-color: #EFF6FF;
-    height: 1270px;
-    width: 1800px;
+    width: 1260px;
+    height: 932px;
+   margin: 0 auto;
+   position: relative;
 }
- @font-face {
-        font-family: "my font";
-                    src: url("./BarlowSemiCondensed-ExtraLight.otf") }
 
 .list {
-    background-color: #FFFFFF; 
-    display: block;
-    height: 1165px;
-    width: 1700px;
-    margin-top: 5%;
-    margin-left:5%;
-    margin-right: 5%;
-  
+    background-color: #FFFFFF;
+    width: 1110px;
+    height: 760px;
+    position: absolute;
+    top: 8%;
+    left: 6%;
+    display: flex;
+
+}
+@font-face {
+        font-family: "my font";
+                    src: url("./BarlowSemiCondensed-ExtraLight.otf") }
+.words {
+   flex: 0 0 50%;
+    text-align: left;
+    padding: 50px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: left;
+    font-size: 14px;
+    font-family: my font;
+
+
+}
+.get{
+    position: absolute;
     
 }
-
-.face {
-padding-top: 150px;
-padding-left: 965px;
-
-}
-
-
 .texth1 {
-color: #7B8A92;
-
-
-
+   color: #7B8A92 ;
 }
-
 .texth2 {
-color: #96A5B1;
-
-
+    color: #96A5B1;
+    font-size: 18px;
 }
-
 .foto {
-    
-   position: relative;
-   display: inline-block;
-   width: 100%;
-     max-width: 885px;
-   max-height: 885px;
-   
-   margin-top: -16.5%;
-  
-
+    flex: 0 0 50%;
 }
-
 .bg {
-    display: block;
     width: 100%;
-     height: auto;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 .logo {
+    display: flex;
     position: absolute;
-    top: 5%;
-    right: 74%;
-    width: 20%;
-    
+    top: 33px;
+    left: 35px;
+    width: 10%;
+    opacity: 1;
+
 }
 .regis {
     display: flex;
-        margin-left: 57%;
-    margin-top: -34%;
     background-color: #255A9B;
-    width: 290px;
-    height: 50px;
+    width: 200px;
+    height: 35px; 
+    /* margin-left: %; */
+    margin-top: 12%;
+    
 }
 .facebook {
-    width: 35px;
-    background-color:#255A9B ;
-    
-    margin-left: 4%;
-
+    width: 25px;
+    background-color:#255A9B;
+    margin-left: 4%; 
 }
 
 .ftex {
     color: #FFFFFF;
     display: inline-block;
     position: relative;
-    margin-left: 20px;
-    margin-top: 12px;
-    font-size: 18px;
-    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none; 
+    
+    
 }
 .khox {
-     display: flex;
-        margin-left: 78%;
-    margin-top: -3%;
+    display: flex;
+    width: 200px;
+    height: 35px; 
+    margin-left: 4%;
+     margin-top: 12%;
     background-color: #0076B6;
-    width: 290px;
-    height: 50px;
+    
 }
 .link {
-     width: 25px;
+     width: 17px;
     background-color:#0076B6 ;
     
     margin-left: 7%;
 
 }
 .vyachekhox {
-    color: #FFFFFF;
+     color: #FFFFFF;
     display: inline-block;
     position: relative;
-    margin-left: 29px;
-    margin-top: 14px;
-    font-size: 18px;
-    text-decoration: none;
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size: 13px;
+    text-decoration: none; 
+    
 }
 .lineor {
     display: flex;
-    align-items: center;
-    margin-left: 67%;
-    max-width: 18%;
-    color: #3a3a3a;
-    margin-top: -1.5%;
-
+   width: 190px;
+    height: 35px; 
+    margin-left: -29%;
+    margin-top: 18%;
+    
 }
+
 .lol {
     flex-grow: 1;
     height: 1px;
-    background-color: #cfcfcf;
+    background-color: #AFAFAF;
 }
 .or {
-    margin: 0 15px;
+    margin: 0 10px;
+    margin-top: -3%;
 }
 .eml {
-    position: relative;
-    width: 300px;
+    position:absolute;
+    width: 300px; 
+       margin-left: 30%;
+       
+    
+    
+    margin: 20% 0% 3% -1%;
+     padding: 5px 10px;
+    
 }
 .Email {
-    width: 280px;
-    height: 36px;
-    margin-left: 323%;
-    padding-top: 20px;
+    width: 194.5px;
+    height: 34px;
+    
    border: 2px solid #EEEEEE;
    border-left: 2px solid #3698FB;
-    
 }
 .igor {
     position: absolute;
-     margin-left: 327%;
-     margin-top: 1%;
-     color: #AFAFAF;
-
-     
-}
+     margin-left: 2%;
+      margin-top: 0.5%;
+        color: #AFAFAF;
+        font-size: 12px;
+    }
 ::placeholder {
-    font-size: 20px;
+    font-size: 13px;
     padding-left: 7px;
+    
+    
 
 }
 .toy {
-     position: relative;
-    width: 300px;
-    margin-left: 78%;
-    margin-top: -3.5%;
+     position: absolute;
+    width: 280px;
+    margin-left: 22%;
+    margin-top: 20.5%;  
     
 }
 .pho {
      position: absolute;
-     margin-top: 1%;
-     margin-left: 4%;
-     color: #AFAFAF;
-}
-.phone {
-    width: 280px;
-    height: 50px;
+     margin-left: 2%;
+      margin-top: 0.5%;
+     color: #AFAFAF; 
+    } 
+    .phone {
+    width: 195px;
+    height: 34px;
 
    border: 2px solid #EEEEEE;
 }
-.face2 {
-    padding-top: 3%;
-padding-left: 965px;
-}
-.radio {
-    margin-left: 58%;
-    margin-top: 3.5%;
-   
+  .face2 {
+    position: absolute;
+    margin: 24% 2% 0% -1%;
+    padding: 5px 10px;
+    
+} 
+
+
+.rop {
+ 
+   gap: 30px; 
+   padding: 5px 10px;
+  /* margin-top: 180%; */
+  margin: 120% 0% 0% -100%; 
+  display: flex;
+  align-items: center;
+  
+    
 }
 #individual {
-    -webkit-appearance: none;
+        -webkit-appearance: none;
         appearance: none;
-        width: 1rem;
-        height: 1rem;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #424242;
+        border-radius: 50%;
+        background-color: #ffffff;
+        cursor: pointer;
+        margin: 0px 0px 0px 0px ;
+        
+
+    }
+    #individual:checked {
         border: 4px solid #3698FB;
+    } 
+
+#Business {
+    
+        -webkit-appearance: none;
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #424242;
         border-radius: 50%;
         background-color: #FFFFFF;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
         cursor: pointer;
-        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
         margin: 0;
-        margin-left: -11.7%;
-    }
-.mama {
-    margin-top: 10px;
 }
-.Busines {
-    margin-left: 28%;
-}
-#Business {
-    margin-left: -11.7%;
-}
-.ira {
-     margin-left: 28%;
-}
+#Business:checked {
+        border: 4px solid #3698FB;
+} 
 #IRA {
-    margin-left: -6%;
+     -webkit-appearance: none;
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #424242;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        margin: 0;
 }
-.tras {
-    margin-left: 22%;
+#IRA:checked {
+        border: 4px solid #3698FB;
 }
+
 #Trust {
-    margin-left: -8%;
+     -webkit-appearance: none;
+        appearance: none;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #424242;
+        border-radius: 50%;
+        background-color: #FFFFFF;
+        cursor: pointer;
+        margin: 0;
+}
+#Trust:checked {
+        border: 4px solid #3698FB;
 }
 #tx {
-    margin-left: 57%;
-    margin-top: 1%;
-    width: 14%;
-    height: 6%;
+    margin-left: -380%;
+    margin-top: 260%;
+    width: 146%;
+    height: 1%;
     padding-bottom: 45px;
     padding-top:10px ;
     color: #2A4A5C;
@@ -236,11 +274,14 @@ padding-left: 965px;
 ::placeholder {
     font-size: 13px;
     white-space: pre-line;
-    vertical-align: middle;
-}
+        vertical-align: middle;
+    }
+    
+    
 .you {
-    margin-left: 56.5%;
-    margin-top: 30px;
+    
+ margin-left: -75%;
+    margin-top: 50%;
 }
 .kuplonov {
     color:#3698FB ;
@@ -249,15 +290,20 @@ padding-left: 965px;
      color: #2A4A5C;
 }
 .gold {
-    margin-left: 56.4%;
+    margin-left: -230%;
+    margin-top: 340%;
     width: 180px;
     height: 50px;
     background-color: #3698FB;
     color: #FFFFFF;
     border: none;
 
-}
+} 
+
+
+
+
+
 
     
-
 
