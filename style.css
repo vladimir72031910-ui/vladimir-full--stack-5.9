@@ -57,7 +57,7 @@
     top: 33px;
     left: 35px;
     width: 10%;
-    opacity: 1;
+    opacity: 0.5;
 
 }
 .regis {
@@ -76,7 +76,7 @@
 }
 
 .ftex {
-    color: #FFFFFF;
+    color: #ffffff;
     display: inline-block;
     position: relative;
     margin-left: 10px;
@@ -209,8 +209,8 @@
         border-radius: 50%;
         background-color: #ffffff;
         cursor: pointer;
-        margin: 0px 0px 0px 0px ;
-        
+         margin: 0px  ;
+         
 
     }
     #individual:checked {
